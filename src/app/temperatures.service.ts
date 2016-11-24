@@ -11,7 +11,7 @@ export class TemperaturesService {
 
   getTemps (fileName): Observable<Temperature[]> {
     return this.http
-      .get(`/assets/${fileName}`)
+      .get(`assets/${fileName}`)
       .map(response => {
         return response.json() as Temperature[];
       })
