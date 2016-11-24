@@ -2,6 +2,7 @@
   <md-card>
     <h1 class="md-headline">Minimum average temperatures in the UK</h1>
     <nvd3 [options]="options" [data]="minData"></nvd3>
+    <p>Select which months to display in the graph, defaults to Autumn and Winter.</p>
     <ng2-select [placeholder]="'Select months to display'"
                 [options]="availableMonths"
                 [multiple]="true"
@@ -9,9 +10,11 @@
                 (onChange)="monthsChange($event, 'min')">
     </ng2-select>
   </md-card>
+
   <md-card>
     <h1 class="md-headline">Maximum average temperatures in the UK</h1>
     <nvd3 [options]="options" [data]="maxData"></nvd3>
+    <p>Select which months to display in the graph, defaults to Spring and Summer</p>
     <ng2-select [placeholder]="'Select months to display'"
                 [options]="availableMonths"
                 [multiple]="true"
