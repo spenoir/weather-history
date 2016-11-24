@@ -45,7 +45,8 @@
     "prefixInterfaces": false,
     "inline": {
       "style": false,
-      "template": false
+      "template": false,
+      "lazyRoutePrefix": "+"
     },
     "spec": {
       "class": false,

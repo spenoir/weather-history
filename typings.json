@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+//    "csv-parse": "registry:npm/csv-parse#1.0.2+20160405213407",
+//    "d3": "github:DefinitelyTyped/DefinitelyTyped/d3/d3.d.ts",
+//    "nvd3": "github:DefinitelyTyped/DefinitelyTyped/nvd3/nvd3.d.ts"
+  }
+}
